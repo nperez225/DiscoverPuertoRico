@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* 
+   Reset Style Sheet
+   Author: Nallely Perez 
+*/
+
+
+/* Structural Styles */
+
+article,
+aside,
+figcaption,
+figture,
+footer,
+header,
+main,
+nav,
+section {
+    display: block;
+    /* defines the display properties of several HTML 5 structural elements */
+}
+
+
+/* Typographic Styles */
+
+address,
+article,
+aside,
+blockquote,
+body,
+cite,
+div,
+dl,
+dt,
+dd,
+em,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+img,
+li,
+main,
+nav,
+ol,
+p,
+section,
+span,
+ul {
+    background: transparent;
+    /* makes background transparent */
+    font-size: 100%;
+    /* sets font size to the font size of the parent */
+    margin: 0;
+    /* removes all margin spaces */
+    padding: 0;
+    /* removes all padding spaces */
+    vertical-align: baseline;
+    /* aligns all content with the baseline */
+    box-sizing: border-box;
+    /* applies border-box sizing to all of the listed block elements a  */
+}
+
+nav ul {
+    /* does not underline hypertext links within navigation lists */
+    list-style: none;
+    list-style-image: none;
+}
+
+nav a {
+    /* does not underline hypertext links within navigation lists */
+    text-decoration: none;
+}
+
+body {
+    /* singles spaces all body text */
+    line-height: 1;
+}

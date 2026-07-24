@@ -1,0 +1,296 @@
+@charset "utf-8";
+
+/*
+    Style Sheet for Puerto Rico website
+    Author: Nallely Perez
+    Date: July 24, 2026
+
+*/
+
+
+/* HTML and Body Styles*/
+
+html {
+    background-color: rgba(255, 235, 210, 0.85);
+}
+
+
+/* Header */
+
+header>img {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 300px;
+    /* object-fit: cover;*/
+}
+
+header>h1 {
+    text-align: center;
+    font-size: 5em;
+    /* color: rgb(0, 119, 182);*/
+    color: rgb(255, 127, 127);
+    margin-bottom: 30px;
+}
+
+
+/* Navigation Menu */
+
+nav {
+    font-size: 1.5em;
+    background-color: rgb(160, 214, 249);
+    padding: 0;
+    margin: 40px 60px;
+}
+
+nav ul {
+    line-height: 2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 60px;
+}
+
+nav>ul>li>a:link,
+nav>ul>li>a:visited {
+    color: rgb(29, 53, 87);
+    text-decoration: none;
+}
+
+nav>ul>li>a:hover,
+nav>ul>li>a:active {
+    color: rgb(255, 107, 107);
+    text-decoration: underline;
+}
+
+
+/* Body Styles */
+
+body {
+    color: #36454F;
+    /* background-color: rgb(245, 206, 206);*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    margin: 0 50px;
+}
+
+main>h1 {
+    color: rgb(0, 119, 182);
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+main>h2 {
+    text-align: left;
+    font-size: 30px;
+    color: rgb(0, 119, 182);
+    margin: 30px 0 20px;
+}
+
+main>p {
+    color: rgb(54, 69, 79);
+    font-size: 15px;
+    text-align: left;
+    width: 50%;
+    line-height: 1.6em;
+    margin-bottom: 25px;
+}
+
+main>ul,
+main>ol {
+    font-size: 17px;
+    line-height: 1.8em;
+}
+
+
+/* Index/Home Page */
+
+#welcome>h2 {
+    text-align: center;
+    color: rgb(0, 119, 182);
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+#welcome>p {
+    color: rgb(54, 69, 79);
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6em;
+    margin-bottom: 25px;
+}
+
+#funfacts>h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgb(198, 0, 0);
+    margin-bottom: 10px;
+}
+
+#funfacts>ul {
+    margin-left: 100px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+
+/* Images & Figure Caption */
+
+figure.center {
+    font-style: italic;
+    text-align: center;
+}
+
+#beachpic {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#lares {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#minime {
+    float: right;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#minime>figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+#me {
+    width: 400px;
+    height: 600px;
+}
+
+#pc {
+    float: right;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#drink {
+    width: 300px;
+    height: 400px;
+}
+
+#pc>figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* Table for About PR */
+
+table {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 3px solid black;
+}
+
+th,
+td {
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+th {
+    text-align: center;
+}
+
+
+/* Contact Us form */
+
+form {
+    margin-top: 50px;
+}
+
+form>h2 {
+    text-align: center;
+    color: rgb(0, 119, 182);
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+form>input {
+    display: block;
+    margin: 10px auto;
+}
+
+label {
+    font-size: 20px;
+    text-align: center;
+}
+
+textarea {
+    width: 70%;
+    height: 200px;
+    display: block;
+    padding: 20px;
+    margin: 30px auto;
+    font-size: 1.2em;
+}
+
+
+/* Coqui section */
+
+#coqui>h2 {
+    text-align: center;
+    color: rgb(0, 119, 182);
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+#coqui>p {
+    color: rgb(54, 69, 79);
+    font-size: 16px;
+    text-align: left;
+    width: 80%;
+    line-height: 1.5em;
+    margin: 50px auto;
+}
+
+#coqui>iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* Footer */
+
+footer {
+    color: #36454F;
+    background-color: rgb(142, 197, 152);
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
